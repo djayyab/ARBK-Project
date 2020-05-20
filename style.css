@@ -1,12 +1,24 @@
-.container{
-    /* margin-left: 300px;
+#container{
+    margin-left: 300px;
     padding-right: 600px;
-    margin-left: 600px; */
-    background-image: url(img/image.jpeg);
+    margin-left: 80px;
+    /* background-image: url(img/Rose.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center; */
+    color:rosybrown;
+    margin-top: 100px;
+    
    
 }
 body{
     background-color: lightblue;
+    margin:600px ;
+    padding-left: 20px;
+}
+td,tr,table{
+    margin-left: 80px;
+    padding: 100px;
+    
+
 }

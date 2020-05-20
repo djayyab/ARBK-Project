@@ -5,22 +5,48 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link  rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">">
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+    <nav class="nav nav-tabs">
+       
+    </nav>
+    <form class="form-group row">
+    <div id= "container" class="form-group">
         <h1>My <span style="color: lightcoral;">Rose</span> Store</h1>
-    <label>Add Item</label>
-    <input type="text"><br><br>
-    <label>type</label>
-    <input type="text"><br><br>
-    <label>Name</label>
-    <input type="text"><br><br>
-    <label>Add photo</label>
+        
+    <label  class="col-sm-2 col-form-label">Name</label>
+    <input  class="form-control"     Name="text" id="a"><br><br>
+    <label  class="col-sm-2 col-form-label">type</label>
+    <input  class="form-control" type="text" id="b"><br><br>
+    <label  class="col-sm-2 col-form-label">referToWhat</label>
+    <input  class="form-control" referToWhat="text" id="c"><br>
+    <label  class="col-sm-2 col-form-label">price</label>
+    <input  class="form-control" price="text" id="d"><br><br>
+    <!-- <label>Add photo</label>
     <input type="file"  accept="image/*" name="image" id="file" style="display: none;"><br><br><br><br>
-    
-    <input type="button" value="submit" style="width:300px;">
+     -->
+    <input class="btn btn-primary" id="button1" type="button" value="submit" style="width:300px;" >
+    <input class="btn btn-primary" id="button2" type="button" value="display" style="width:300px"><br><br>
+    <input class="btn btn-primary" id="button3" type="button" value="edit" style="width:300px"><br><br>
+    <input class="btn btn-primary" id="button4" type="button" value="clear" style="width:300px">
     </div>
-    <script src="script.js"></script>
+</form>
+
+<table class = "table table-hover"  id = "table">
+    <thead>
+        <tr class="table-active">
+            <th scope="col">Name</th>
+            <th scope="col">type</th>
+            <th scope="col">referToWhat</th>
+            <th scope="col">price</th>
+            <!-- <th>photo</th> -->
+           
+        </tr>
+    </thead>
+    <tbody id="flower-list"></tbody>
+
+</table>
+    <script src="test.js"></script>
 </body>
 </html>
