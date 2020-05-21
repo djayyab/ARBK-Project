@@ -99,7 +99,7 @@ var submit = document.getElementById("button1")
 display.addEventListener("click",displayDetails);
 var row = 1;
 function displayDetails(){
-var name = document.querySelector("#a").value;
+var name = document.getElementById("#a").value;
 var type=  document.querySelector("#b").value;
 var referToWhat= document.querySelector("#c").value;
 var price= document.querySelector("#d").value;

@@ -1,24 +1,20 @@
-#container{
-    margin-left: 300px;
-    padding-right: 600px;
-    margin-left: 80px;
-    /* background-image: url(img/Rose.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
-    color:rosybrown;
-    margin-top: 100px;
-    
-   
+table{
+	margin-top: 50px;
+	text-align: center;
+	
+}
+
+#btna td input{
+	width: 100%;
 }
 body{
     background-color: lightblue;
     margin:600px ;
     padding-left: 20px;
 }
-td,tr,table{
+th,td,tr,table{
     margin-left: 80px;
-    padding: 100px;
+    padding: 13px;
+}
     
 
-}
